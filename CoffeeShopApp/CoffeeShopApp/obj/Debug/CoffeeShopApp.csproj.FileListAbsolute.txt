@@ -1,0 +1,11 @@
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\bin\Debug\CoffeeShopApp.exe.config
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\bin\Debug\CoffeeShopApp.exe
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\bin\Debug\CoffeeShopApp.pdb
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.csproj.AssemblyReference.cache
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fLogin.resources
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.Properties.Resources.resources
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.csproj.GenerateResource.cache
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.csproj.CoreCompileInputs.cache
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.exe
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.pdb
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fTableManager.resources
