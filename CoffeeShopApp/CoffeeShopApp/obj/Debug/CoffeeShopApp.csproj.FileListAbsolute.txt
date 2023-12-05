@@ -9,3 +9,5 @@ D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.c
 D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.exe
 D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.pdb
 D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fTableManager.resources
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fAccountProfile.resources
+D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fAdmin.resources

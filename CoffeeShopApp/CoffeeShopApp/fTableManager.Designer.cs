@@ -29,23 +29,33 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBoxCount = new System.Windows.Forms.TextBox();
+            this.numericUpDownCountFood = new System.Windows.Forms.NumericUpDown();
+            this.buttonAddFood = new System.Windows.Forms.Button();
+            this.comboBoxFood = new System.Windows.Forms.ComboBox();
+            this.comboBoxCategory = new System.Windows.Forms.ComboBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.buttonDiscount = new System.Windows.Forms.Button();
+            this.comboBoxSwitchTable = new System.Windows.Forms.ComboBox();
+            this.buttonSwitchTable = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.buttonCheckOut = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanelTable = new System.Windows.Forms.FlowLayoutPanel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.comboBoxCategory = new System.Windows.Forms.ComboBox();
-            this.comboBoxFood = new System.Windows.Forms.ComboBox();
-            this.buttonAddFood = new System.Windows.Forms.Button();
-            this.numericUpDownCountFood = new System.Windows.Forms.NumericUpDown();
-            this.flowLayoutPanelTable = new System.Windows.Forms.FlowLayoutPanel();
+            this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCountFood)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -61,6 +71,148 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.textBoxCount);
+            this.panel5.Controls.Add(this.numericUpDownCountFood);
+            this.panel5.Controls.Add(this.buttonAddFood);
+            this.panel5.Controls.Add(this.comboBoxFood);
+            this.panel5.Controls.Add(this.comboBoxCategory);
+            this.panel5.Location = new System.Drawing.Point(534, 31);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(492, 69);
+            this.panel5.TabIndex = 1;
+            // 
+            // textBoxCount
+            // 
+            this.textBoxCount.Location = new System.Drawing.Point(410, 7);
+            this.textBoxCount.Name = "textBoxCount";
+            this.textBoxCount.ReadOnly = true;
+            this.textBoxCount.Size = new System.Drawing.Size(79, 22);
+            this.textBoxCount.TabIndex = 4;
+            this.textBoxCount.Text = "Số lượng";
+            this.textBoxCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxCount.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // numericUpDownCountFood
+            // 
+            this.numericUpDownCountFood.Location = new System.Drawing.Point(410, 35);
+            this.numericUpDownCountFood.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDownCountFood.Name = "numericUpDownCountFood";
+            this.numericUpDownCountFood.Size = new System.Drawing.Size(79, 22);
+            this.numericUpDownCountFood.TabIndex = 3;
+            this.numericUpDownCountFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numericUpDownCountFood.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // buttonAddFood
+            // 
+            this.buttonAddFood.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.buttonAddFood.Location = new System.Drawing.Point(298, 0);
+            this.buttonAddFood.Name = "buttonAddFood";
+            this.buttonAddFood.Size = new System.Drawing.Size(110, 63);
+            this.buttonAddFood.TabIndex = 2;
+            this.buttonAddFood.Text = "Thêm món";
+            this.buttonAddFood.UseVisualStyleBackColor = false;
+            this.buttonAddFood.Click += new System.EventHandler(this.buttonAddFood_Click);
+            // 
+            // comboBoxFood
+            // 
+            this.comboBoxFood.FormattingEnabled = true;
+            this.comboBoxFood.Location = new System.Drawing.Point(3, 33);
+            this.comboBoxFood.Name = "comboBoxFood";
+            this.comboBoxFood.Size = new System.Drawing.Size(289, 24);
+            this.comboBoxFood.TabIndex = 1;
+            this.comboBoxFood.SelectedIndexChanged += new System.EventHandler(this.comboBoxFood_SelectedIndexChanged);
+            // 
+            // comboBoxCategory
+            // 
+            this.comboBoxCategory.FormattingEnabled = true;
+            this.comboBoxCategory.Location = new System.Drawing.Point(3, 3);
+            this.comboBoxCategory.Name = "comboBoxCategory";
+            this.comboBoxCategory.Size = new System.Drawing.Size(289, 24);
+            this.comboBoxCategory.TabIndex = 0;
+            this.comboBoxCategory.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(534, 106);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(492, 379);
+            this.panel4.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.buttonDiscount);
+            this.panel3.Controls.Add(this.comboBoxSwitchTable);
+            this.panel3.Controls.Add(this.buttonSwitchTable);
+            this.panel3.Controls.Add(this.numericUpDown1);
+            this.panel3.Controls.Add(this.buttonCheckOut);
+            this.panel3.Location = new System.Drawing.Point(534, 491);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(492, 79);
+            this.panel3.TabIndex = 2;
+            // 
+            // buttonDiscount
+            // 
+            this.buttonDiscount.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.buttonDiscount.Location = new System.Drawing.Point(180, 3);
+            this.buttonDiscount.Name = "buttonDiscount";
+            this.buttonDiscount.Size = new System.Drawing.Size(137, 35);
+            this.buttonDiscount.TabIndex = 4;
+            this.buttonDiscount.Text = "Giảm giá ";
+            this.buttonDiscount.UseVisualStyleBackColor = false;
+            this.buttonDiscount.Click += new System.EventHandler(this.buttonDiscount_Click);
+            // 
+            // comboBoxSwitchTable
+            // 
+            this.comboBoxSwitchTable.FormattingEnabled = true;
+            this.comboBoxSwitchTable.Location = new System.Drawing.Point(3, 44);
+            this.comboBoxSwitchTable.Name = "comboBoxSwitchTable";
+            this.comboBoxSwitchTable.Size = new System.Drawing.Size(150, 24);
+            this.comboBoxSwitchTable.TabIndex = 2;
+            // 
+            // buttonSwitchTable
+            // 
+            this.buttonSwitchTable.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.buttonSwitchTable.Location = new System.Drawing.Point(3, 3);
+            this.buttonSwitchTable.Name = "buttonSwitchTable";
+            this.buttonSwitchTable.Size = new System.Drawing.Size(150, 35);
+            this.buttonSwitchTable.TabIndex = 5;
+            this.buttonSwitchTable.Text = "Chuyển bàn";
+            this.buttonSwitchTable.UseVisualStyleBackColor = false;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Location = new System.Drawing.Point(180, 44);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(137, 22);
+            this.numericUpDown1.TabIndex = 4;
+            this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // buttonCheckOut
+            // 
+            this.buttonCheckOut.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.buttonCheckOut.Location = new System.Drawing.Point(323, 3);
+            this.buttonCheckOut.Name = "buttonCheckOut";
+            this.buttonCheckOut.Size = new System.Drawing.Size(166, 63);
+            this.buttonCheckOut.TabIndex = 3;
+            this.buttonCheckOut.Text = "Thanh toán";
+            this.buttonCheckOut.UseVisualStyleBackColor = false;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.flowLayoutPanelTable);
@@ -68,6 +220,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(521, 539);
             this.panel2.TabIndex = 0;
+            // 
+            // flowLayoutPanelTable
+            // 
+            this.flowLayoutPanelTable.Location = new System.Drawing.Point(6, 7);
+            this.flowLayoutPanelTable.Name = "flowLayoutPanelTable";
+            this.flowLayoutPanelTable.Size = new System.Drawing.Size(514, 531);
+            this.flowLayoutPanelTable.TabIndex = 0;
+            this.flowLayoutPanelTable.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // menuStrip1
             // 
@@ -86,88 +246,30 @@
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
             this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
             this.adminToolStripMenuItem.Text = "Admin";
+            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
+            this.thôngTinTàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thôngTinCáNhânToolStripMenuItem,
+            this.đăngXuấtToolStripMenuItem});
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
             this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản ";
             // 
-            // panel3
+            // thôngTinCáNhânToolStripMenuItem
             // 
-            this.panel3.Location = new System.Drawing.Point(534, 471);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(492, 99);
-            this.panel3.TabIndex = 2;
+            this.thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
+            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+            this.thôngTinCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
+            this.thôngTinCáNhânToolStripMenuItem.Click += new System.EventHandler(this.thôngTinCáNhânToolStripMenuItem_Click);
             // 
-            // panel4
+            // đăngXuấtToolStripMenuItem
             // 
-            this.panel4.Location = new System.Drawing.Point(534, 106);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(492, 359);
-            this.panel4.TabIndex = 3;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.numericUpDownCountFood);
-            this.panel5.Controls.Add(this.buttonAddFood);
-            this.panel5.Controls.Add(this.comboBoxFood);
-            this.panel5.Controls.Add(this.comboBoxCategory);
-            this.panel5.Location = new System.Drawing.Point(534, 31);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(492, 69);
-            this.panel5.TabIndex = 1;
-            // 
-            // comboBoxCategory
-            // 
-            this.comboBoxCategory.FormattingEnabled = true;
-            this.comboBoxCategory.Location = new System.Drawing.Point(3, 3);
-            this.comboBoxCategory.Name = "comboBoxCategory";
-            this.comboBoxCategory.Size = new System.Drawing.Size(289, 24);
-            this.comboBoxCategory.TabIndex = 0;
-            this.comboBoxCategory.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // comboBoxFood
-            // 
-            this.comboBoxFood.FormattingEnabled = true;
-            this.comboBoxFood.Location = new System.Drawing.Point(3, 33);
-            this.comboBoxFood.Name = "comboBoxFood";
-            this.comboBoxFood.Size = new System.Drawing.Size(289, 24);
-            this.comboBoxFood.TabIndex = 1;
-            // 
-            // buttonAddFood
-            // 
-            this.buttonAddFood.Location = new System.Drawing.Point(298, 0);
-            this.buttonAddFood.Name = "buttonAddFood";
-            this.buttonAddFood.Size = new System.Drawing.Size(110, 63);
-            this.buttonAddFood.TabIndex = 2;
-            this.buttonAddFood.Text = "Thêm món";
-            this.buttonAddFood.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDownCountFood
-            // 
-            this.numericUpDownCountFood.Location = new System.Drawing.Point(410, 5);
-            this.numericUpDownCountFood.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.numericUpDownCountFood.Name = "numericUpDownCountFood";
-            this.numericUpDownCountFood.Size = new System.Drawing.Size(79, 22);
-            this.numericUpDownCountFood.TabIndex = 3;
-            this.numericUpDownCountFood.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // flowLayoutPanelTable
-            // 
-            this.flowLayoutPanelTable.Location = new System.Drawing.Point(6, 7);
-            this.flowLayoutPanelTable.Name = "flowLayoutPanelTable";
-            this.flowLayoutPanelTable.Size = new System.Drawing.Size(514, 531);
-            this.flowLayoutPanelTable.TabIndex = 0;
-            this.flowLayoutPanelTable.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất ";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // fTableManager
             // 
@@ -182,11 +284,14 @@
             this.Load += new System.EventHandler(this.fTableManager_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCountFood)).EndInit();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCountFood)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -206,5 +311,13 @@
         private System.Windows.Forms.ComboBox comboBoxFood;
         private System.Windows.Forms.NumericUpDown numericUpDownCountFood;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelTable;
+        private System.Windows.Forms.Button buttonDiscount;
+        private System.Windows.Forms.Button buttonCheckOut;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.ComboBox comboBoxSwitchTable;
+        private System.Windows.Forms.Button buttonSwitchTable;
+        private System.Windows.Forms.ToolStripMenuItem thôngTinCáNhânToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
+        private System.Windows.Forms.TextBox textBoxCount;
     }
 }
