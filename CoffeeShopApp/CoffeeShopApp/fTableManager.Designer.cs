@@ -163,9 +163,9 @@
             // buttonDiscount
             // 
             this.buttonDiscount.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.buttonDiscount.Location = new System.Drawing.Point(180, 3);
+            this.buttonDiscount.Location = new System.Drawing.Point(211, 3);
             this.buttonDiscount.Name = "buttonDiscount";
-            this.buttonDiscount.Size = new System.Drawing.Size(137, 35);
+            this.buttonDiscount.Size = new System.Drawing.Size(106, 35);
             this.buttonDiscount.TabIndex = 4;
             this.buttonDiscount.Text = "Giảm giá ";
             this.buttonDiscount.UseVisualStyleBackColor = false;
@@ -196,9 +196,9 @@
             0,
             0,
             0});
-            this.numericUpDown1.Location = new System.Drawing.Point(180, 44);
+            this.numericUpDown1.Location = new System.Drawing.Point(211, 44);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(137, 22);
+            this.numericUpDown1.Size = new System.Drawing.Size(106, 22);
             this.numericUpDown1.TabIndex = 4;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
