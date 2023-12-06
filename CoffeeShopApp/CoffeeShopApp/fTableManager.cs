@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CoffeeShopApp.DAO;
+using CoffeeShopApp.DTO; 
 
 namespace CoffeeShopApp
 {
@@ -15,8 +17,30 @@ namespace CoffeeShopApp
         public fTableManager()
         {
             InitializeComponent();
+
+            loadTables();
+            return; 
         }
 
+        public void loadTables()
+        {
+            const int SIZE = 80; 
+            List<Table> tables = TableDAO.Instance.LoadTableList();
+            foreach (Table table in tables) 
+            {
+                Button button = new Button();
+                button.Text = table.Name + Environment.NewLine + table.Status;
+                button.Width = SIZE; button.Height = SIZE; 
+                if(table.Status != "Empty")
+                    button.BackColor = Color.WhiteSmoke; 
+                else
+                    button.BackColor = Color.DarkGray; 
+                flowLayoutPanelTable.Controls.Add(button);
+            }
+            return; 
+        }
+
+        #region events 
         private void fTableManager_Load(object sender, EventArgs e)
         {
 
@@ -78,5 +102,7 @@ namespace CoffeeShopApp
         {
 
         }
+
+        #endregion
     }
 }
