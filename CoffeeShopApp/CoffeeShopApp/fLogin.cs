@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoffeeShopApp.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,10 +55,19 @@ namespace CoffeeShopApp
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            fTableManager f = new fTableManager();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            string userName = textBoxUsername.Text;
+            string password = textBoxPassword.Text;
+            if (AccountDAO.Instance.checkLogin(userName, password))
+            {
+                fTableManager f = new fTableManager();
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Sai tên tài khoản hoặc mật khẩu!"); 
+            }
         }
 
         private void fLogin_FormClosing(object sender, FormClosingEventArgs e)

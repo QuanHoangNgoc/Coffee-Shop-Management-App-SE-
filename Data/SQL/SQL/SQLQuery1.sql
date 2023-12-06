@@ -30,11 +30,18 @@ go
 
 use [CoffeeShop] 
 go 
-select userName as N'Tên ðãng nh?p', 
+
+/*select userName as N'Tên ðãng nh?p', 
 	displayName as N'Tên hi?n th?', 
 	type as N'Admin' 
 	from dbo.Account where dbo.Account.isDeleted = 0; 
-go 
+go*/ 
 
-
+select * 
+from dbo.Account
+where (
+	isDeleted = 0 and 
+	username like N'quanhn' and
+	password like N'123456789' 
+) 
 
