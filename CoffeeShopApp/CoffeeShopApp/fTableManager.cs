@@ -22,6 +22,7 @@ namespace CoffeeShopApp
             return; 
         }
 
+        #region Method
         public void loadTables()
         {
             const int SIZE = 80; 
@@ -40,8 +41,25 @@ namespace CoffeeShopApp
             return; 
         }
 
+        void ShowBill(int id)
+        {
+            lsvBill.Items.Clear();
+            List<CoffeeShopApp.DTO.Menu> listBillInfo = MenuDAO.Instance.GetListMenuByTable(id);
+
+            foreach (CoffeeShopApp.DTO.Menu item in listBillInfo)
+            {
+                ListViewItem lsvItem = new ListViewItem(item.FoodName.ToString());
+                lsvItem.SubItems.Add(item.Count.ToString());
+                lsvItem.SubItems.Add(item.Price.ToString());
+                lsvItem.SubItems.Add(item.TotalPrice.ToString());
+
+                lsvBill.Items.Add(lsvItem);
+            }
+        }
+            #endregion
+
         #region events 
-        private void fTableManager_Load(object sender, EventArgs e)
+            private void fTableManager_Load(object sender, EventArgs e)
         {
 
         }
@@ -103,6 +121,24 @@ namespace CoffeeShopApp
 
         }
 
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void buttonCheckOut_Click(object sender, EventArgs e)
+        {
+            int tableID = ((sender as Button).Tag as Table).Id;
+            ShowBill(tableID);
+        }
+
+
         #endregion
+
+        private void comboBoxSwitchTable_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

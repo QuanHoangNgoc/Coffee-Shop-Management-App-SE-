@@ -1,7 +1,7 @@
 
 --Hoang Ngoc Quan: 6/12/2023
 
-/* 
+/*
 use [CoffeeShop]
 go 
 
@@ -25,15 +25,14 @@ values
 	N'quanhn2', N'Hoang Ngoc Quan', N'123456789', 0
 )
 go 
-*/ 
-
+*/
 
 use [CoffeeShop] 
 go 
 
 
-/*select userName as N'Tên ðãng nh?p', 
-	displayName as N'Tên hi?n th?', 
+/*select userName as N'Tï¿½n ï¿½ï¿½ng nh?p', 
+	displayName as N'Tï¿½n hi?n th?', 
 	type as N'Admin' 
 	from dbo.Account where dbo.Account.isDeleted = 0; 
 go*/ 
@@ -58,7 +57,7 @@ where isDeleted = 0;
 declare @i int = 0 
 while @i <= 10 
 begin 
-	insert dbo.TableFood (name) values (N'Bàn ' + CAST(@i as nvarchar(100)))
+	insert dbo.TableFood (name) values (N'Bï¿½n ' + CAST(@i as nvarchar(100)))
 	set @i = @i + 1 
 end 
 go 
@@ -69,11 +68,11 @@ go
 select * from dbo.TableFood
 go 
 
-update dbo.TableFood set status = N'Có ngý?i' where id = 1
+update dbo.TableFood set status = N'Cï¿½ ngï¿½?i' where id = 1
 go 
 */
 
 
-select * from dbo.TableFood
+select * from dbo.Account
 go 
 

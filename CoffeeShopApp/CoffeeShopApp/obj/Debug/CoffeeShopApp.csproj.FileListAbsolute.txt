@@ -11,3 +11,16 @@ D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.p
 D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fTableManager.resources
 D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fAccountProfile.resources
 D:\cd_data_C\Desktop\SEApp\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fAdmin.resources
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\bin\Debug\CoffeeShopApp.exe.config
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\bin\Debug\CoffeeShopApp.exe
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\bin\Debug\CoffeeShopApp.pdb
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.csproj.AssemblyReference.cache
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fAccountProfile.resources
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fAdmin.resources
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fLogin.resources
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.fTableManager.resources
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.Properties.Resources.resources
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.csproj.GenerateResource.cache
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.csproj.CoreCompileInputs.cache
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.exe
+D:\IT\Đồ án CNPM\Coffee_Shop_App\CoffeeShopApp\CoffeeShopApp\obj\Debug\CoffeeShopApp.pdb

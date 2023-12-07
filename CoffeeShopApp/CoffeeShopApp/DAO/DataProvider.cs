@@ -19,8 +19,9 @@ namespace CoffeeShopApp.DAO
         //private DataProvider() {}; 
 
         //! change on user computer 
-        private string connectionString = "Data Source=.\\sqlexpress; Initial Catalog=CoffeeShop; Integrated Security=True";
-
+        //private string connectionString = "Data Source=.\\sqlexpress; Initial Catalog=CoffeeShop; Integrated Security=True";
+        
+        private string connectionString = "Data Source=LAPTOP-7S3B342J;Initial Catalog=CoffeeShop;Integrated Security=True";
         public DataTable executeQuery(string sql, object[] parameters = null)
         {
             DataTable data = new DataTable();
