@@ -159,10 +159,13 @@ values
 (3, 3, 1) 
 */ 
 --select * from dbo.Account; 
-select * from dbo.FoodCategory; 
-select * from dbo.Food; 
+select * from dbo.FoodCategory where isDeleted = 0; 
+select * from dbo.Food where (isDeleted = 0); 
 select * from dbo.Bill; 
 select * from dbo.BillInfo; 
+
+select * from dbo.Bill
+	where (isDeleted = 0 and idTable = 1); 
 
 select 
 	C.name as N'Tên món', 
