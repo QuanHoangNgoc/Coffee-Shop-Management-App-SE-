@@ -158,7 +158,7 @@ insert dbo.BillInfo
 values 
 (3, 3, 1) 
 */ 
---select * from dbo.Account; 
+select * from dbo.TableFood; 
 select * from dbo.FoodCategory where isDeleted = 0; 
 select * from dbo.Food where (isDeleted = 0); 
 select * from dbo.Bill; 
@@ -184,7 +184,9 @@ select * from dbo.Account;
 select * from dbo.TableFood; 
 
 
-
+update dbo.Bill set status = 1, dateCheckout = GETDATE()
+                            where (isDeleted = 0 and id = 1); 
+							go 
 
 
 
