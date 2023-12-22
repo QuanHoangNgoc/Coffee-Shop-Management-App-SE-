@@ -208,7 +208,8 @@ update dbo.Account
     where (isDeleted = 0 and userName like N'quanhn')
 */ 
 
-select * from Account; 
+--select * from Account; 
+
 /*
 select * from dbo.Account
     where (isDeleted = 0 and username like N'{0}' and type = 1)
@@ -218,9 +219,7 @@ where (isDeleted = 0 and status = 1 and (dateCheckOut between '20230101' and '20
 */ 
 
 
-
-
-
+select * from dbo.Food; 
 
 
 
