@@ -158,6 +158,7 @@ insert dbo.BillInfo
 values 
 (3, 3, 1) 
 */ 
+/*
 select * from dbo.TableFood; 
 select * from dbo.FoodCategory where isDeleted = 0; 
 select * from dbo.Food where (isDeleted = 0); 
@@ -166,6 +167,7 @@ select * from dbo.BillInfo;
 
 select * from dbo.Bill
 	where (isDeleted = 0 and idTable = 1); 
+*/
 
 /*
 select 
@@ -180,10 +182,11 @@ from
 		on (B.idFood = C.id)
 go
 */ 
+/*
 select * from dbo.Account; 
 
 select * from dbo.TableFood; 
-
+*/ 
 /*
 update dbo.Bill set status = 1, dateCheckout = GETDATE()
                             where (isDeleted = 0 and id = 1); 
@@ -194,18 +197,25 @@ ALTER TABLE dbo.Bill ADD totalPrice FLoat;
 */ 
 -- ALTER TABLE dbo.Bill ADD seller NVARCHAR(100); 
 
-select * from dbo.Bill; 
+-- select * from dbo.Bill; 
 
 -- delete dbo.BillInfo; 
 -- delete dbo.Bill; 
- 
+
+/* 
+update dbo.Account 
+    set displayName = N'Quan' 
+    where (isDeleted = 0 and userName like N'quanhn')
+*/ 
+
 select * from Account; 
+/*
 select * from dbo.Account
     where (isDeleted = 0 and username like N'{0}' and type = 1)
 
 select * from dbo.Bill
 where (isDeleted = 0 and status = 1 and (dateCheckOut between '20230101' and '20231230')) 
-
+*/ 
 
 
 
