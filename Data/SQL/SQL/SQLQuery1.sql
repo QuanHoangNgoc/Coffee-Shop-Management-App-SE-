@@ -167,6 +167,7 @@ select * from dbo.BillInfo;
 select * from dbo.Bill
 	where (isDeleted = 0 and idTable = 1); 
 
+/*
 select 
 	C.name as N'Tên món', 
 	C.price as N'Giá', 
@@ -178,18 +179,32 @@ from
 		join (select * from dbo.Food where (isDeleted = 0)) as C 
 		on (B.idFood = C.id)
 go
-
+*/ 
 select * from dbo.Account; 
 
 select * from dbo.TableFood; 
 
-
+/*
 update dbo.Bill set status = 1, dateCheckout = GETDATE()
                             where (isDeleted = 0 and id = 1); 
 							go 
+*/
+/*
+ALTER TABLE dbo.Bill ADD totalPrice FLoat; 
+*/ 
+-- ALTER TABLE dbo.Bill ADD seller NVARCHAR(100); 
 
+select * from dbo.Bill; 
 
+-- delete dbo.BillInfo; 
+-- delete dbo.Bill; 
+ 
+select * from Account; 
+select * from dbo.Account
+    where (isDeleted = 0 and username like N'{0}' and type = 1)
 
+select * from dbo.Bill
+where (isDeleted = 0 and status = 1 and (dateCheckOut between '20230101' and '20231230')) 
 
 
 
