@@ -219,7 +219,9 @@ where (isDeleted = 0 and status = 1 and (dateCheckOut between '20230101' and '20
 */ 
 
 
-select * from dbo.Food; 
+select * from dbo.TableFood; 
+
+select * from dbo.Account; 
 
 
 
