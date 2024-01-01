@@ -219,10 +219,12 @@ where (isDeleted = 0 and status = 1 and (dateCheckOut between '20230101' and '20
 */ 
 
 
-select * from dbo.TableFood; 
+-- select * from dbo.TableFood; 
+
+-- update dbo.Account set idImage = '0.jpg'; 
+-- go 
 
 select * from dbo.Account; 
-
 
 
 
