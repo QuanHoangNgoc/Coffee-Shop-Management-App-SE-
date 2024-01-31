@@ -8,7 +8,8 @@
 - I learn about Three Layers Architecture to manage the system, using SQL Server for database and c#, OOP to design and implement.
 ### show
 - youtube: https://youtu.be/qr8Z_AfD1tw
-
+- submit:
+  
 # Repo Branch 
 - MAIN: Includes some files about the project. 
 - MASTER: All about the [project] and its [complete process].  
