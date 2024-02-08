@@ -8,7 +8,8 @@
 - I learn about Three Layers Architecture to manage the system, using SQL Server for database and c#, OOP to design and implement.
 ### show
 - youtube: https://youtu.be/qr8Z_AfD1tw
-- submit: https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj
+- submit:
+  - https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj
   
 # Repo Branch 
 - MAIN: Includes some files about the project. 
