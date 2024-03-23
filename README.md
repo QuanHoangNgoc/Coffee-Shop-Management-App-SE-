@@ -9,12 +9,12 @@
 - I learn about Three Layers Architecture to manage the system, using SQL Server for database and c#, OOP to design and implement.
 
 ### show-off 
-- [Coffee Shop Application Presentation - Mini Project - [Nhập môn Công nghệ phần mềm - UIT]](https://youtu.be/qr8Z_AfD1tw)
+- [x] Video [Coffee Shop Application Presentation - Mini Project - [Nhập môn Công nghệ phần mềm - UIT]](https://youtu.be/qr8Z_AfD1tw)
 
 # Repo Structure:  
 - RESOURCES: some resources, guidelines, documents and reports of this project.
 - MASTER: source code of this project.
-- [Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj)
+- [x] OneDrive [Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj)
   - Backup this project
   - Contain submit files   
 
