@@ -14,7 +14,7 @@
 # Repo Structure:  
 - RESOURCES: some resources, guidelines, documents and reports of this project.
 - MASTER: source code of this project.
--[Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj)
+- [Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj)
   - Backup this project
   - Contain submit files   
 
