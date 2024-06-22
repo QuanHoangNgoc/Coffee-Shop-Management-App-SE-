@@ -1,37 +1,37 @@
 # Introduction
-- Quan Hoang Ngoc
-- Software Engineering Mini Project, _NMCNPM_
-- _HK1_, 2023-2024
+- **Quan Hoang Ngoc**
+- **Software Engineering Mini Project, _NMCNPM_**
+- **_HK1_, 2023-2024**
 
-### About
-- This project entails an interactive application tailored to facilitate Coffee Shop management on local devices.
-- Notably, this project marks our first venture where we conceived, executed, and validated a solution employing various methods, principles, technical aspects, and tactics characteristic of a professional software engineer.
-- Through this endeavor, I delved into the intricacies of Three Layers Architecture for system management, leveraging SQL Server for database functionality, and utilizing c# and OOP for design and implementation.
+### About 
+- This project introduces an interactive application tailored for managing a Coffee Shop using local devices.
+- Noteworthy is the fact that this is our initial venture where we conceptualized, executed, and validated a solution employing various methods, principles, technical aspects, and tricks characteristic of a professional software engineer.
+- Throughout this project, I focused on utilizing Three Layers Architecture for system management, incorporating SQL Server for database operations, and implementing design and functionality using c# and OOP principles.
 
-### Showcase
-- [x] Video: [Coffee Shop Application Presentation - Mini Project - [Nhập môn Công nghệ phần mềm - UIT]](https://youtu.be/qr8Z_AfD1tw)
+### Show-off 
+- [x] **Video:** [Coffee Shop Application Presentation - Mini Project - [Nhập môn Công nghệ phần mềm - UIT]](https://youtu.be/qr8Z_AfD1tw)
 
 # Repository Structure
-- RESOURCES: Comprises resources, guidelines, documents, and reports pertinent to this project.
-- MASTER: Hosts the source code for this project.
-- [x] OneDrive: [Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj)
+- **RESOURCES:** Contains resources, guidelines, documents, and reports pertinent to this project.
+- **MASTER:** Houses the source code of this project.
+- [x] **OneDrive:** [Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj)
   - Backup of this project
   - Contains submitted files
 
 # Pipeline
-### Program System Architecture
+### Programs System Architecture 
 - Three Layers Architecture
-### Database
+### Database 
 - SQL Server + FileDatabase
-### Design and Implementation
-- OOP and c#
+### Design and Implement 
+- OOP and c# 
 
 # Installation Instructions
-- Please refer to the installation guides provided in the presentation video and the project's guide file.
+- Please refer to the installation guides provided in the presentation video and the guide file within the project.
 
-# Support
-- If you find this project beneficial, kindly consider giving it a like (star) to motivate further development.
-- I am keen on sharing my knowledge and projects with others and am dedicated to investing additional time, enthusiasm, and attention to detail in such initiatives. Your support is greatly appreciated. Thank you for your assistance.
+# Donation
+- If you find this project useful, your support by giving it a like (star) would provide further motivation.
+- I am delighted to share my knowledge and projects with others and am dedicated to investing more time, enthusiasm, and a polished effort into these projects. Thank you for your support.
 
 
 
