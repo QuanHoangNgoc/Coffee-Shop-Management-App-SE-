@@ -2,36 +2,37 @@
 - Quan Hoang Ngoc
 - Software Engineering Mini Project, _NMCNPM_
 - _HK1_, 2023-2024
-  
-### About 
-- This is an interactive app designed to assist in managing a Coffee Shop on local devices.
-- This project serves as an initial endeavor where we designed, implemented, and validated using professional software engineering methods, principles, techniques, and tricks.
-- I gained insights into Three Layers Architecture for system management, utilized SQL Server for database operations, and employed c# and OOP for design and implementation.
 
-### Show-Off 
+### About
+- This project entails an interactive application tailored to facilitate Coffee Shop management on local devices.
+- Notably, this project marks our first venture where we conceived, executed, and validated a solution employing various methods, principles, technical aspects, and tactics characteristic of a professional software engineer.
+- Through this endeavor, I delved into the intricacies of Three Layers Architecture for system management, leveraging SQL Server for database functionality, and utilizing c# and OOP for design and implementation.
+
+### Showcase
 - [x] Video: [Coffee Shop Application Presentation - Mini Project - [Nhập môn Công nghệ phần mềm - UIT]](https://youtu.be/qr8Z_AfD1tw)
 
-# Repository Structure  
-- RESOURCES: Contains various resources, guidelines, documents, and reports related to this project.
-- MASTER: Houses the source code of this project.
+# Repository Structure
+- RESOURCES: Comprises resources, guidelines, documents, and reports pertinent to this project.
+- MASTER: Hosts the source code for this project.
 - [x] OneDrive: [Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj)
   - Backup of this project
-  - Contains submitted files   
+  - Contains submitted files
 
-# Pipeline: 
-### Programs System Architecture 
+# Pipeline
+### Program System Architecture
 - Three Layers Architecture
-### Database 
+### Database
 - SQL Server + FileDatabase
-### Design and Implementation 
-- OOP and C# 
+### Design and Implementation
+- OOP and c#
 
-# Installation Guide: 
-- Refer to the guides provided in the presentation video and the guide file within the project.  
+# Installation Instructions
+- Please refer to the installation guides provided in the presentation video and the project's guide file.
 
-# Support: 
-- If you find this project helpful, please consider giving it a like (star) to motivate me further.
-- I am dedicated to sharing my knowledge and projects with the community. Your support encourages me to invest more time, enthusiasm, and attention to detail in such projects. Thank you for your assistance.
+# Support
+- If you find this project beneficial, kindly consider giving it a like (star) to motivate further development.
+- I am keen on sharing my knowledge and projects with others and am dedicated to investing additional time, enthusiasm, and attention to detail in such initiatives. Your support is greatly appreciated. Thank you for your assistance.
+
 
 
 
