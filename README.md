@@ -1,7 +1,7 @@
 # ☕ Coffee Shop Management App ☕
 
 ## 🌟 Introduction
-This repository contains the Coffee Shop Management App, developed by Quan Hoang Ngoc as a mini project for the Software Engineering course (_NMCNPM_) during the first term of 2023-2024.
+This repository contains the Coffee Shop Management App, developed by Quan Hoang Ngoc as a mini project for the Introduction to Software Engineering course during the first term of 2023-2024.
 
 ## 🚀 About the Project
 The Coffee Shop Management App is a local device application designed to streamline the operations of a coffee shop. The project demonstrates the practical application of professional software engineering techniques and principles. It features a robust Three Layers Architecture, an SQL Server database for efficient data management, and is developed using C# with a focus on Object-Oriented Programming (OOP).
