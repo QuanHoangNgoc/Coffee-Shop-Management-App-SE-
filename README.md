@@ -1,36 +1,26 @@
 # ☕ Coffee Shop Management App ☕
 
 ## 🌟 Introduction
-- **Author**: Quan Hoang Ngoc
-- **Project**: Software Engineering Mini Project, _NMCNPM_
-- **Term**: _HK1_, 2023-2024
+This repository contains the Coffee Shop Management App, developed by Quan Hoang Ngoc as a mini project for the Software Engineering course (_NMCNPM_) during the first term of 2023-2024.
 
-### 🚀 About 
-Embark on a journey to revolutionize coffee shop management with our robust local device app. This groundbreaking project harnesses the power of professional software engineering techniques, methodologies, and principles to architect, develop, and validate the system. Dive into the world of Three Layers Architecture, SQL Server database management, and the elegance of C# and OOP design and implementation.
+## 🚀 About the Project
+The Coffee Shop Management App is a local device application designed to streamline the operations of a coffee shop. The project demonstrates the practical application of professional software engineering techniques and principles. It features a robust Three Layers Architecture, an SQL Server database for efficient data management, and is developed using C# with a focus on Object-Oriented Programming (OOP).
 
-### 🌟 Showcase
-- [x] Video Presentation: [Coffee Shop Application Presentation - Mini Project - [Nhập môn Công nghệ phần mềm - UIT]](https://youtu.be/qr8Z_AfD1tw)
+## 🌟 Showcase
+- **Video Presentation**: [Watch the Coffee Shop Application Presentation](https://youtu.be/qr8Z_AfD1tw) to see the app in action and understand its features and capabilities.
 
 ## 🏛️ Repository Structure  
-- **RESOURCES**: A treasure trove of project-related resources, guidelines, documents, and reports.
-- **MASTER**: The sanctuary of the project's source code.
-- [x] OneDrive: [Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj)
-  - Safeguarding project integrity with a backup
-  - Housing essential submission files
+- **RESOURCES**: Contains all the essential resources, guidelines, documents, and reports related to the project.
+- **MASTER**: The core of the project, holding the source code.
+- **OneDrive Backup**: The [Coffee_Shop_Application.cnpm](https://uithcm-my.sharepoint.com/:f:/g/personal/22521178_ms_uit_edu_vn/EuqxEatwhmBHoCxVAXI40j8BiAY_k02M9gLaAYFJmZNUEg?e=kHtiJj) link provides access to backups of essential files and project submissions.
 
 ## 🚀 Project Pipeline
-### Software Architecture 
-- Three Layers Architecture
+- **Software Architecture**: The app is built on a Three Layers Architecture, ensuring a clear separation of concerns and ease of maintenance.
+- **Database Management**: Utilizes SQL Server and FileDatabase for reliable and efficient data storage and retrieval.
+- **Design and Implementation**: Developed using C# with an emphasis on Object-Oriented Programming (OOP) for scalable and maintainable code.
 
-### Database 
-- SQL Server + FileDatabase
-
-### Design and Implementation 
-- OOP and C#
-
-## 💻 Installation Guide 
-- Unveil the secrets of installation by delving into the presentation video and the project's guide file.
+## 💻 Installation Guide
+To install and run the Coffee Shop Management App, please refer to the detailed instructions provided in the project's guide file and the presentation video linked above.
 
 ## 💖 Donations
-- If the aromatic essence of this project has enriched your journey, sprinkle some stardust by giving it a star. 
-- Committed to illuminating minds with knowledge and projects, your support is the fuel that propels me forward. Thank you for being a beacon of encouragement!
+If you found this project helpful or inspiring, please consider giving it a star on GitHub. Your support is invaluable and encourages further development and sharing of knowledge. Thank you for your support!
